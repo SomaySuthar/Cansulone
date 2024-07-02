@@ -1,0 +1,84 @@
+@media screen and (max-width: 720px) {
+    header {
+        position: initial;
+    }
+
+    .special {
+        position: initial;
+    }
+
+    .spacing {
+        padding-top: 20px;
+    }
+
+    .cont1 a,
+    address {
+        color: black;
+    }
+
+    .banner {
+        position: initial;
+    }
+
+    .bannercont h2 {
+        font-size: 30px;
+        color: black;
+    }
+
+    .bannercont p {
+        font-size: 15px;
+        color: black;
+    }
+
+    .bannercont a {
+        color: black;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .cont2 a {
+        color: black;
+    }
+
+    .cont2 li select {
+        color: black;
+    }
+
+    .bannercont {
+        position: initial;
+        transform: none;
+        padding: 30px 0;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    header {
+        position: initial;
+    }
+
+    .special {
+        position: initial;
+    }
+
+    .spacing {
+        padding: 30px 0;
+    }
+
+    .cont1 a,
+    address {
+        color: black;
+    }
+
+    .cont2 a {
+        color: black;
+    }
+
+    .cont2 li select {
+        color: black;
+    }
+
+
+
+}

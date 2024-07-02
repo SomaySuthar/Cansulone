@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* css for common */
+
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+}
+.icon{
+    font-size: 30px;
+    color: limegreen;
+    padding: 0 0 20px 0;
+}
+.smallheading{
+    color: navy;
+    font-family: inherit;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* css for header */
+
+header{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.cont2 li select{
+    background: transparent;
+    border: none;
+    color: white;
+}
+address{
+    display: inline;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+.fb{
+    font-size: 12px;
+}
+select option{
+    color: black;
+}
+.cont1,.cont2{
+    margin: 10px 0;
+}
+.cont1 a{
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+.cont1 li i{
+    padding: 0 5px 0 5px;
+    color: #30d130;
+}
+.cont2 a{
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+.cont1 ul li .lo{
+    padding: 0 10px 0 10px;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.quote{
+    border: none;
+    background: #30d130;
+}
+.quote a{
+    padding: 1.5rem 1rem;
+    color: white;
+}
+
+.navbar-nav .sp{
+    padding: 0 10px;
+}
+
+/* css for banner */
+
+.banner{
+    position: relative;
+}
+.banner img{
+    width: 100%;
+    filter: brightness(0.4);
+}
+.bannercont{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+.bannercont h2{
+    font-size: 70px;
+    color: white;
+}
+.bannercont p{
+    margin: 20px 0 40px 0;
+    color: white;
+}
+.bannercont a{
+    border: 2px solid;
+    padding: 10px;
+    margin-right: 10px;
+    color: white;
+    border-radius: 2px;
+}
+.bannercont a:hover{
+    background-color: #30d130;
+    color: white;
+    text-decoration: none;
+    border-color:#30d130;
+}
+
+/* css for section1 */
+
+.special{
+    position: relative;
+    top: -60px;
+}
+.cont3{
+    text-align: center;
+    padding: 35px;
+    background: white;
+    box-shadow: 5px black;
+}
+.cont3:hover{
+    background-image: url(../image/R.jpeg);
+    background-size: cover;   
+}
+
+/* css for section2 */
+
+.cont4 i{
+    margin-right: 20px;
+}
+.cont4 p{
+    padding-left: 40px;
+}
+.cont6 img{
+    height: 350px;
+}
+.cont5 i{
+    margin-right: 20px;
+}
+.cont5 p{
+    padding-left: 60px;
+}
